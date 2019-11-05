@@ -19,7 +19,7 @@ namespace CRUD2.API.Controllers
         {
             if(companyid == 1)
             {
-                return BadRequest("Invalid company id");
+                return BadRequest("Invalid data");
             }
             return Ok(new List<Employee>()); // THis is just an example. We will getting this from the database
         }
